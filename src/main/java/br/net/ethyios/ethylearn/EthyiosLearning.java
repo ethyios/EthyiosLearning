@@ -1,5 +1,6 @@
 package br.net.ethyios.ethylearn;
 
+import br.net.ethyios.ethylearn.registration.EthyItemRegistration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +13,6 @@ public class EthyiosLearning implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing EthyiosLearning!");
+		EthyItemRegistration.registerModItems();
 	}
 }
