@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
           "br.net.ethyios.ethylearn.EthyiosLearningDataGenerator"
+		],
+		"client": [
+			"br.net.ethyios.ethylearn.EthyiosLearningClient"
 		]
 	},
 	"mixins": [
