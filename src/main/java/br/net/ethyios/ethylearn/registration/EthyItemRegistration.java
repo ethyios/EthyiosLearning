@@ -15,7 +15,7 @@ public class EthyItemRegistration {
     public static final Item RAW_REDSTONE_CRYSTAL = registerItem("raw_redstone_crystal", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(EthyiosLearning.MOD_ID), item);
+        return Registry.register(Registries.ITEM, Identifier.of(EthyiosLearning.MOD_ID, name), item);
     }
 
     private static void customIngredients(FabricItemGroupEntries entries) {
